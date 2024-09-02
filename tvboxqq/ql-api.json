@@ -1,0 +1,31 @@
+{ "urls": [{ "url": "http://192.168.31.6:8088/mytvs/tvbox/shenxian/shenxian.json", "name": "[本地] 神仙线路" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/饭太硬/api.json", "name": "[本地] 饭太硬" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/小米/api.json", "name": "[本地] 小米" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/肥猫/api.json", "name": "[本地] 肥猫" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/王二小/api.json", "name": "[本地] 王二小" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/摸鱼儿/api.json", "name": "[本地] 摸鱼儿" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/潇洒/api.json", "name": "[本地] 潇洒" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/天天开心/api.json", "name": "[本地] 天天开心" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/香雅情/api.json", "name": "[本地] 香雅情" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/南风/api.json", "name": "[本地] 南风" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/骚零/api.json", "name": "[本地] 骚零" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/OK/api.json", "name": "[本地] OK" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/戏曲音乐/api.json", "name": "[本地] 戏曲音乐" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/短剧频道/api.json", "name": "[本地] 短剧频道" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/少儿频道/api.json", "name": "[本地] 少儿频道" },
+
+{ "url": "http://192.168.31.6:8088/mytvs/tvboxqq/动漫频道/api.json", "name": "[本地] 动漫频道" }]}
