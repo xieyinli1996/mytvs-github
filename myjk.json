@@ -94,5 +94,24 @@
 {"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxTW/本地【小胡线路】/api.json", "name": "本地【小胡线路】"},
 {"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxTW/本地【小米线路】/api.json", "name": "本地【小米线路】"},
 {"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxTW/本地【白嫖线路】/api.json", "name": "本地【白嫖线路】"},
-{"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxTW/本地【道长本地】/api.json", "name": "本地【道长本地】" }
+{"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxTW/本地【道长本地】/api.json", "name": "本地【道长本地】" },
+# 多多分享
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/wangpan/wangpan.json","name": "🚀①网盘线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/One/One.json","name": "🚀②One线路"},		
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/PG/PG.json","name": "🚀③PG线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/zhenxin/zhenxin.json","name": "🚀④真心线路"},	
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/OK/OK.json","name": "🚀⑤OK线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/fty/fty.json","name": "🚀⑥饭太硬线路"}, 
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/xiaosa/xiaosa.json","name": "🚀⑦潇洒线路"},	
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/xiangyaqing/xiangyaqing.json","name": "🚀⑧香雅情线路"},	
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/feimao/feimao.json","name": "🚀⑨肥猫线路"},		
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/chayu/chayu.json","name": "🚀⑩茶余线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/wangerxiao/wangerxiao.json","name": "🚀⑪放牛线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/kaixin/kaixin.json","name": "🚀⑫开心线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/moyu/moyu.json","name": "🚀⑬摸鱼线路"},	
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/yeyu/yeyu.json","name": "🚀⑭业余线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/chunying/chunying.json","name": "🚀⑮春盈线路"}, 	
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/duanjuheji/duanjuheji.json","name": "🚀⑯短剧合集"},		
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/daozhang/daozhang.json","name": "🚀⑰道长线路"},
+{"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvboxduoduo/gaotianliuyun/gaotianliuyun.json","name": "🚀⑱高天流云"}
 ]}
