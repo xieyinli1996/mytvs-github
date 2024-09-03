@@ -17,6 +17,15 @@ CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226475/index.m3u
 CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226478/index.m3u8
 CCTV16,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226100/index.m3u8$4.0M_1080
 CCTV17,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8
+CCTV4K,https://stream1.freetv.fun/ce32a55eb347ed4c31cc8242938adc53b38f9ad5746980dd65964b84f1c6d32f.ctv
+CCTV4K,https://stream1.freetv.fun/cctv4kgao-qing-2.ctv
+CCTV4K,https://stream1.freetv.fun/98c171e94acd8816ad1a1756a51c4aff1fbe90b2016414801ee3e9326247ced6.ctv
+CCTV16-4K,https://stream1.freetv.fun/b302aac5da246a51db11e4bedbd114c4250e0edac87138f8c47a5670440319c4.ctv
+CCTV16-4K,https://stream1.freetv.fun/b60c6ac7026a3596baea6c436eb7bc2a9f2db23351f4db387be3dea60b38d9c4.m3u8
+CCTV16-4K,https://stream1.freetv.fun/cctv16-4k-2.m3u8
+CCTV16-4K,https://stream1.freetv.fun/b1a45b42e75da38a40fe2d213307eece2c6a6416f21be46a29edc1ad5f84208f.ctv
+CCTV16-4K,https://stream1.freetv.fun/596ee61f806ca311333ddcf6f12a4f34a0809af23c2fddd77f2e621f9d549750.m3u8
+CCTV16-4K,https://stream1.freetv.fun/ipv6-cctv-16-9.m3u8
 
 CCTV1,http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226917/10000100000000060000000008219383_0.smil/index.m3u8?fmt=ts2hls&servicetype=1
 CCTV2,http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226970/10000100000000060000000008219358_0.smil/index.m3u8?fmt=ts2hls&servicetype=1
