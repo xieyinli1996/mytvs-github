@@ -1,0 +1,2 @@
+https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js
+https://gitlab.com/fantaiying/ext/-/raw/main/jp.js
