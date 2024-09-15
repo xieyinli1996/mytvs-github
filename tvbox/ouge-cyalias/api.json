@@ -18,9 +18,9 @@
 
 
 "lives":[
-{"name":"mylive","type":0,"url":"http://192.168.31.6:8088/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}"},
+{"name":"mylive","type":0,"url":"http://192.168.31.6:8088/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "http://192.168.31.6:8899/api/v1?ch={name}&date={date}"},
 {"name":"公众号欧歌app","type":0,"url":"https://cyalias.e.nxog.top/m/tv/","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png"},
-{"name":"IPV4V6","type":0,"url":"https://cyalias.e.nxog.top/m/tv/1/","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}"}
+{"name":"IPV4V6","type":0,"url":"https://cyalias.e.nxog.top/m/tv/1/","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "http://192.168.31.6:8899/api/v1?ch={name}&date={date}"}
 ],
 "sites": [
 {"key":"豆瓣2","name":"📢cyalias榜单u.nxog.top","type":3,"api":"csp_Douban","searchable":0},
