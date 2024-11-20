@@ -196,7 +196,7 @@ CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226471/index.m3u8
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226592/index.m3u8
 
 卫视频道,#genre#
-河南卫视,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226344/index.m3u8
+河南卫视4K实验,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226344/index.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 浙江卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226448/index.m3u8
 东方卫视,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
