@@ -9,7 +9,7 @@
 📢长期维护切勿贩卖
 📢智能AI已过滤广告",
 "lives":[
-{"name":"MyLive","type":0,"url":"https://gh.con.sh/https://raw.githubusercontent.com/cyalias/mytvs-github/main/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "https://uh115654wg0.vicp.fun/api/v1?ch={name}&date={date}"},
+{"name":"MyLive","type":0,"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "https://uh115654wg0.vicp.fun/api/v1?ch={name}&date={date}"},
 {"name":"公众号欧歌app","type":0,"url":"https://cyalias.e.nxog.top/m//tv/","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png"},
 {"name":"公众号欧歌app2","type":0,"url":"https://tv.iill.top/m3u/Gather","playerType":2},
 {"name":"公众号欧歌app3","ua":"","type":0,"url":"https://tv.iill.top/m3u/Live"}
