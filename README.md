@@ -3,7 +3,7 @@
 
 
 ## 🚀 自用多仓链接
-https://gh.con.sh/https://raw.githubusercontent.com/cyalias/mytvs-github/main/myjk.json
+https://raw.githubusercontent.com/cyalias/mytvs-github/main/myjk.json
 
 https://raw.kkgithub.com/cyalias/mytvs-github/main/myjk.json
 
