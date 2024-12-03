@@ -49,4 +49,7 @@
 
 { "url":"http://192.168.31.6:8088/mytvs/tvboxTW/本地【白嫖线路】/api.json", "name": "本地【白嫖线路】" },
 
-{ "url":"http://192.168.31.6:8088/mytvs/tvboxTW/本地【道长本地】/api.json", "name": "本地【道长本地】" }]}
+{ "url":"http://192.168.31.6:8088/mytvs/tvboxTW/本地【道长本地】/api.json", "name": "本地【道长本地】" },
+{ "url":"http://192.168.31.6:8088/mytvs/tvboxTW/本地【戏曲音乐】/api.json", "name": "本地【戏曲音乐】" },
+{ "url":"http://192.168.31.6:8088/mytvs/tvboxTW/本地【潇洒线路】/api.json", "name": "本地【潇洒线路】" }
+]}
