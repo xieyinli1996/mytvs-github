@@ -1,4 +1,4 @@
-{
+﻿{
   "spider": "./nzk0722.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=biying&type=302",
   "logo": "http://rihou.cc:567/1.gif",
@@ -78,7 +78,7 @@
       "name": "葡萄短剧",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar",
+      "jar": "./lib/HCCX.jar",
       "ext": {
         "数组": "class=\"stui-vodlist__box&&</li",
         "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",

@@ -1,3 +1,4 @@
+
 var rule = {
     title:'88看球',
     // host:'http://www.88kanqiu.cc',

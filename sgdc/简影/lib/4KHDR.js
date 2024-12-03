@@ -1,3 +1,4 @@
+
 var rule = {
 	title:'4KHDR[磁]',
 	host:'https://www.4khdr.cn',

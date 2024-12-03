@@ -1,3 +1,4 @@
+
 var rule = {
     title:'看了么',
     host:'https://www.ksksl.com',

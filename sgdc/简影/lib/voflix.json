@@ -5,9 +5,12 @@
   
   "分类": "电影$1#剧集$2#动漫$4#综艺$3#国产剧$13#日韩剧$15#欧美剧$16",
   
-  "分类url": "https://www.voflix.me/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+  "分类url": "https://www.voflix.me/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
   
-  "副标题": "module-item-note\">&&</div>",
+ "数组": "<a&&class=\"module-poster-item-info&&<div>",
+		"副标题": "module-item-note\">&&</div",
+		
+
   
   "搜索模式": "1",
   //"搜索后缀": "/detail/",
@@ -22,8 +25,8 @@
   "主演": "主演：&&</div>",
   "简介": "<p>&&</p>",
   
-  "线路数组": "data-dropdown-value=&&</div>[不包含:夸克网盘]",
-  "线路标题": "<span>&&</small>[替换:</span><small>>>]+集",
+ "线路数组": "class=\"module-tab-item tab-item&&</div>",
+  "线路标题": "💢简影👉+data-dropdown-value=\"&&\"+[共+<small>&&</small>+集]",
   
   "播放数组": "<div class=\"module-play-list\">&&</div>",
   

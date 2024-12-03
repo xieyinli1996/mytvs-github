@@ -1,5 +1,5 @@
 ﻿{
-  "spider": "./fty.jar",
+  "spider": "./xmbjm.jar",
   "sites": [
     {
       "key": "drpy_js_ddys",
@@ -8,28 +8,21 @@
       "api": "./js/drpy2.min.js",
       "ext": "./js/douban.js"
     },
-    {
-      "key": "dr_77",
-      "name": "酷云七七",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./js/酷云77.js"
-    },
-   
+    
 
-    {
-      "key": "csp_XBPQ_酷奇",
-      "name": "🎤酷奇┃MV",
+       {
+      "key": "酷奇",
+      "name": "音乐┃酷奇MV",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./js/酷奇MV.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./json/酷奇MV.json",
-      "jar": "./小暴脾气7.jar"
+      "changeable": 0
     },
   
     {
@@ -59,24 +52,7 @@
       "ext": "./js/网易公版影像.js"
     },
     
-    {
-      "key": "MTV转点播",
-      "name": "🎶万首| MTV",
-      "type": 3,
-      "api": "./js/lf_live_min.js",
-      "ext": "./js/mv.txt"
-    },
     
-    {
-      "key": "dr_263",
-      "name": "🌺高清MV",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./js/MV263.js"
-    },
    
     {
       "key": "da_ry",
@@ -96,19 +72,53 @@
       "playerType": "2"
     },
    
-  
-   
-    {
-      "key": "演唱会",
-      "name": "🅱哔哩┃音乐",
+     {
+      "key": "bili_演唱会",
+      "name": "🅱哔哩┃演唱会",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0,
-      "ext": "./json/哔哩哔哩音乐.json"
-    }
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./json/演唱会.json"
+      },
+      "timeout": 20
+    },
+    {
+      "key": "bili_女团热舞",
+      "name": "🅱哔哩┃热舞",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+        "json": "./json/女团热舞.json"
+      },
+      "timeout": 20
+    },
+   {
+			"key": "hipy_js_KTV歌厅[听]",
+			"name": "音乐┃KTV歌厅",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/KTV歌厅[听].js"
+		}
   ],
   "rules": [
     {
