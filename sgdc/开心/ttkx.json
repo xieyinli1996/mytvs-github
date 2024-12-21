@@ -67,6 +67,15 @@
       "logo": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
+      "name": "广东银河频道",
+      "type": 0,
+      "url": "./lib/iptv.txt",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
       "name": "⑪V6明线路",
       "type": 0,
       "url": "./lib/ipv6.m3u",
@@ -97,7 +106,7 @@
     {
       "name": "③④16万MV",
       "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "url": "./lib/MTV.txt",
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
       "logo": "https://diyp2.112114.xyz/logo/{name}.png"
     }

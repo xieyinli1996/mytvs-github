@@ -1,5 +1,5 @@
-﻿{
-  "spider": "./Yoursmile.jar;md5;4167C1F70BB7078E105CD57616AFAA5C",
+{
+  "spider": "./Yoursmile.jar;md5;64ECBF2910590EA19DAF3A7ECDEC1D5A",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -14,15 +14,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
         "filter": "./lib/douban.json"
       }
-    },
-    {
-      "key": "csp_YGP",
-      "name": "🚀豆瓣预告",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
     },
     {
       "key": "ConfigCenter",
@@ -74,6 +65,27 @@
       "changeable": 1
     },
     {
+      "key": "csp_Czsapp",
+      "name": "🏭厂长",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.czzyvideo.com"
+    },
+    {
+      "key": "csp_SuBaiBai",
+      "name": "🏳️素白白",
+      "type": 3,
+      "api": "csp_SuBaiBai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://subaibai.com"
+    },
+    {
       "key": "瓜子",
       "name": "🍉瓜子",
       "type": 3,
@@ -83,22 +95,25 @@
       "filterable": 1
     },
     {
-      "key": "农民",
+      "key": "csp_Nongm",
       "name": "👩‍🌾农民",
       "type": 3,
       "api": "csp_Nongm",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://wwgz.cn"
     },
     {
-      "key": "比特",
-      "name": "✌️比特",
+      "key": "csp_Fantuan",
+      "name": "🍙饭团",
       "type": 3,
-      "api": "csp_Bttwo",
+      "api": "csp_Fantuan",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "ext": "https://www.fantuan.vip"
     },
     {
       "key": "csp_AppRZ",
@@ -128,7 +143,8 @@
       "api": "csp_Qiyou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "http://www.dyxz2.com/"
     },
     {
       "key": "csp_Tvyb",
@@ -140,6 +156,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://www.tvyun01.com/"
+    },
+    {
+      "key": "csp_Jiaozi",
+      "name": "🥣饺子",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "csp_DiDuan",
@@ -228,16 +253,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Djtt",
-      "name": "🌈短剧",
-      "type": 3,
-      "api": "csp_Djtt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_Alllive",
       "name": "📽️一直播",
       "type": 3,
@@ -246,6 +261,19 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
+    },
+    {
+      "key": "csp_Kanqiu",
+      "name": "⚾看球",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "csp_Kugou",
@@ -260,6 +288,19 @@
             "type_id": "kugou"
           }
         ]
+      }
+    },
+    {
+      "key": "csp_BookTing",
+      "name": "📚听书",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_BookTing",
+      "searchable": 0,
+      "ext": "https://m.ting275.com",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
       }
     },
     {
@@ -320,7 +361,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-        "siteUrl": "http://mucpan.cc",
+        "siteUrl": "https://mihdr.top",
         "filter": "./lib/wogg.json"
       }
     },
@@ -383,6 +424,15 @@
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
       }
+    },
+    {
+      "key": "AList",
+      "name": "🅰AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./lib/alist.json"
     },
     {
       "key": "网盘集合",

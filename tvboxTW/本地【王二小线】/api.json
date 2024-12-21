@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "Douban",
-            "name": "🐮【王二小本地】｜公众号:天微科技  收集",
+            "name": "🐮王二小本地",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -43,6 +43,14 @@
             "indexs": 0
         },
         {
+            "key": "Wexfeiyang",
+            "name": "💓‍肥羊┃直播💓‍",
+            "type": 3,
+            "api": "csp_Wexfeiyang",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexalllive",
             "name": "💓‍聚合┃直播💓‍",
             "type": 3,
@@ -69,6 +77,14 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "盘他",
+            "name": "💓‍盘他┃4K💓‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "雷鲸",
@@ -247,10 +263,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexdyxs",
-            "name": "🎇先生┃秒播🎇",
+            "key": "WexBDys",
+            "name": "🎇滴滴┃秒播🎇",
             "type": 3,
-            "api": "csp_Wexdyxs",
+            "api": "csp_WexBDys",
             "searchable": 1,
             "changeable": 1
         },
@@ -450,14 +466,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexkoukou",
-            "name": "🌺扣扣┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexkoukou",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexwencai",
             "name": "🌺文才┃秒播🌺",
             "type": 3,
@@ -470,14 +478,6 @@
             "name": "🌺苹果┃秒播🌺",
             "type": 3,
             "api": "csp_Wexxpgtv",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexhanjutv",
-            "name": "🌺韩剧┃秒播🌺",
-            "type": 3,
-            "api": "csp_Wexhanjutv",
             "searchable": 1,
             "changeable": 1
         },
@@ -529,14 +529,6 @@
             "name": "🍉短剧┃极品🍉",
             "type": 3,
             "api": "csp_Wexduanju001",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexduanjuvip",
-            "name": "🍉短剧┃精品🍉",
-            "type": 3,
-            "api": "csp_Wexduanjuvip",
             "searchable": 1,
             "changeable": 1
         },

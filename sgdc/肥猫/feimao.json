@@ -1,11 +1,11 @@
 ﻿{
-  "spider": "./PandaQ241122.txt;md5;b22151214f757c2d4b25635393e06228",
+  "spider": "./b97a0-b33fe897-498a-4dc9-9f5a-46fef469dd89.txt;md5;b97a0b4c9bc92e86c3f1c0b15e6ba290",
   "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
   "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼首页┃公众号┃拾光趣乐屋",
+      "name": "🐼豆瓣┃公众号┃拾光趣乐屋",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -26,6 +26,20 @@
       "playerType": 2
     },
     {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://feimaouc.cloud:666",
+          "http://feimao.tech:666"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
       "key": "csp_Duopan",
       "name": "🖍︎┃蜡笔┃影视",
       "type": 3,
@@ -38,22 +52,22 @@
           "http://feimaoai.site",
           "https://mihdr.top"
         ],
-        "url_key": "Duopan"
+        "url_key": "Duopan2"
       }
     },
     {
-      "key": "csp_FeiMaoUC",
-      "name": "🐼┃肥猫┃UC",
+      "key": "csp_Bili",
+      "name": "🅱┃️哔哩┃合集",
       "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
+      "api": "csp_Bili",
+      "playerType": 2,
       "ext": {
-        "site_urls": [
-          "http://www.mucpan.cc",
-          "http://ucmi.fun",
-          "http://www.ucmi.fun"
-        ],
-        "url_key": "FeiMaoUC"
+        "json": "./lib/bili.json",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
       }
     },
     {
@@ -84,6 +98,21 @@
       "ext": "http://rzys.xyz/"
     },
     {
+      "key": "csp_XMUC",
+      "name": "🍚┃小米┃UC",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://www.mucpan.cc",
+          "http://ucmi.fun",
+          "http://www.ucmi.fun"
+        ],
+        "url_key": "XMUC"
+      }
+    },
+    {
       "key": "csp_Netfixtv",
       "name": "💌┃️至臻┃影视",
       "type": 3,
@@ -91,9 +120,11 @@
       "filterable": 1,
       "ext": {
         "site_urls": [
+          "http://www.xhww.net",
+          "http://xhww.net",
           "https://xiaomiai.site"
         ],
-        "url_key": "Netfixtv",
+        "url_key": "Netfixtv2",
         "token": "",
         "ucCookie": "",
         "quarkCookie": "",
@@ -114,12 +145,6 @@
       "name": "🛳️┃看客┃影视",
       "type": 3,
       "api": "csp_Kanke"
-    },
-    {
-      "key": "csp_Dadag",
-      "name": "🐢️┃达龟┃影视",
-      "type": 3,
-      "api": "csp_Dadag"
     },
     {
       "key": "csp_Qiyou",
@@ -148,7 +173,7 @@
       "name": "🎃┃南瓜┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "./lib/ng_open.js"
+      "api": "csp_NanGua"
     },
     {
       "key": "csp_J",
@@ -162,7 +187,7 @@
       "name": "💖┃Ivdy┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/ivdy.json",
+      "ext": "https://img2.gelonghui.com/library/ea5ba-5f15b1f1-2ca0-4dda-86b4-c86954b5bd37null",
       "searchable": 0
     },
     {
@@ -241,21 +266,6 @@
       "type": 3,
       "api": "csp_Xb6v",
       "playerType": "2"
-    },
-    {
-      "key": "低端",
-      "name": "🛣┃低端┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/ddys.js"
-    },
-    {
-      "key": "虎虎",
-      "name": "🐯┃虎虎┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "http://我不是.肥猫.live/json/虎虎.json"
     },
     {
       "key": "csp_SP360",
@@ -393,7 +403,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "./lib/310直播.js"
+      "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
     },
     {
       "key": "米搜",
@@ -408,14 +418,6 @@
       "type": 3,
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
-    },
-    {
-      "key": "drpy_哔哩",
-      "name": "🅱┃哔哩┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 1,
-      "ext": "./lib/bilibili.json"
     },
     {
       "key": "儿童",

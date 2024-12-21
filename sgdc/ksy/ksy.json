@@ -13,7 +13,7 @@
   "sites": [
     {
             "key": "无敌凯少爷免费接口禁止贩卖",
-            "name": "无敌凯少爷免费接口禁止贩卖",
+            "name": "豆瓣首页",
             "type": 3,
             "jar": "./lib/pg.jar",
             "api": "csp_Douban",
@@ -24,7 +24,7 @@
         },
     {
       "key": "无敌凯少爷豆瓣2",
-      "name": "无敌凯少爷豆瓣2",
+      "name": "豆瓣",
       "type": 3,
       "api": "csp_DouDou",
     "jar": "./lib/fan.txt;md5;0f1d73221352f4e6b049b3291f96d75d",
@@ -49,8 +49,8 @@
       }
     },
 {
-      "key": "凯少爷QQ群: 750301216",
-      "name": "5秒播凯少爷",
+      "key": "凯少爷你好",
+      "name": "5秒播",
       "type": 1,
       "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -86,8 +86,8 @@
             }
         },
   {
-            "key": "凯少爷蚂蚁影库",
-            "name": "凯少爷蚂蚁影库",
+            "key": "蚂蚁影库",
+            "name": "蚂蚁影库",
             "type": 3,
             "api": "csp_XBPQ",
            "jar": "./lib/xyqxbpq.jar",
@@ -247,7 +247,7 @@
 
      {
             "key": "凯少爷囧次元动漫",
-            "name": "凯少爷囧次元动漫",
+            "name": "囧次元动漫",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./lib/xyqxbpq.jar",
@@ -400,16 +400,94 @@
       }
     },
     {
-      "key": "大鱼影视",
-      "name": "大鱼影视",
+      "key": "美益达影剧",
+      "name": "美益达影剧",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/xyqxbpq.jar",
       "ext": {
       "请求头": "User-Agent$MOBILE_UA",
        "编码": "UTF-8",
-        "分类url": "https://dayuya.com/index.php/vod/type/id/{cateId}{year}/{class}/{area}/page/{catePg}.html",
-        "分类": "电影$1#电视剧$2#综艺$52#动漫$3#短剧$33",
+        "分类url": "https://www.meiyd14.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
+        "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
+        "线路标题": "nbsp;&&</a >",
+        "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
+        "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+      }
+    },
+    {
+      "key": "统一影视",
+      "name": "统一影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/xyqxbpq.jar",
+      "ext": {
+      "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+        "分类url": "https://ty1010.com/index.php/vod/type/id/{cateId}{year}/{class}/{area}/page/{catePg}.html",
+        "分类": "电视剧$1#电影$2#动漫$3#综艺$4#体育赛事$5#短剧$41",
+        "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
+        "线路标题": "nbsp;&&</a >",
+        "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
+        "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+      }
+    },
+    {
+      "key": "热播之家",
+      "name": "热播之家",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/xyqxbpq.jar",
+      "ext": {
+      "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+        "分类url": "https://rebozj.pro/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$5",
+        "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
+        "线路标题": "nbsp;&&</a >",
+        "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
+        "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+      }
+    },
+        {
+            "key": "哆啦新番社",
+            "name": "哆啦新番社",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://dora.xiaoxinbk.com/",
+                "数组": "class=\"card-img-bili\"&&</a>",
+                "标题": "alt=\"&&\"",
+                "图片": "https://p3.itc.cn/images01/20210326/93827cff964b4497a04f315ca47d530e.jpeg",
+                "链接": "href=\"&&\"",
+                "播放数组": "class=\"card-body button-list\"&&</div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": ">&&</",
+                "分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}",
+                "分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30",
+                "剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33",
+                "排序": "全部$0#完结$2#连载$1#待定$-1"
+            }
+        },
+    {
+      "key": "OmoFun动漫",
+      "name": "OmoFun动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/xyqxbpq.jar",
+      "ext": {
+      "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+        "分类url": "https://www.omofuns.cc/index.php/vod/show/id/{cateId}{year}/{class}/{area}/page/{catePg}.html",
+        "分类": "日本动漫$20#动漫电影$22#欧美动漫$23",
         "线路数组": "hl-tabs-btn hl-slide-swiper&&</a >",
         "线路标题": "nbsp;&&</a >",
         "线路标题": "🍁凯少爷🍁祝您观影愉快🍁",
@@ -418,7 +496,7 @@
     },
  {
       "key": "🍁凯少爷🍁芒果视频4K",
-      "name": "🍁凯少爷🍁芒果视频4K",
+      "name": "芒果视频4K",
       "type": 3,
       "api": "https://3450.kstore.space/js/drpy_libs/drpy2.js",
       "searchable": 1,
@@ -720,6 +798,20 @@
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "LIVE",
+      "type": 0,
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1
     }
   ],
   "flags": [],

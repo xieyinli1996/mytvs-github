@@ -1,7 +1,7 @@
 ﻿{
   "spider": "./spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
   "wallpaper": "https://api.likepoems.com/img/bing",
-  "logo": "https://d.kstore.dev/download/4708/logo.gif",
+  "logo": "https://4708.kstore.space/logo.gif",
   "sites": [
     {
       "key": "豆瓣",

@@ -2,8 +2,28 @@
     "spider": "./jar/xyqxbpq.jar",
     "sites": [
         {
-            "key": "✨555短剧✨",
+            "key": "星芽短剧",
             "name": "🔥指尖短剧屋🔥",
+            "type": 3,
+            "api": "https://ricolj.github.io/ziyong/mb/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/星芽短剧.js"
+        },
+        {
+            "key": "✨抖音短剧✨",
+            "name": "✨抖音短剧✨乐哥甄选✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/抖音短剧.json"
+        },
+        {
+            "key": "✨555短剧✨",
+            "name": "✨555短剧✨乐哥甄选✨",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -62,39 +82,6 @@
             "ext": "./json/一起看短剧.json"
         },
         {
-            "key": "大鱼短剧",
-            "name": "✨大鱼短剧✨乐哥甄选✨",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://dayuya.com/index.php/vod/show/id/33.html",
-                "首页": "120",
-                "起始页": "1",
-                "数组": "/vod/detail/id/&&/div></div>",
-                "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "text\">&&<",
-                "链接": "/index.php/vod/detail/id/+&&\"",
-                "线路数组": "data-dropdown&&</div>",
-                "线路标题": "✨+<span>&&</+【共+<small>&&</+集】",
-                "搜索模式": "1",
-                "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}&limit=30",
-                "搜索数组": "list",
-                "搜索标题": "name",
-                "搜索图片": "pic",
-                "搜索副标题": "en",
-                "搜索链接": "'/index.php/vod/detail/id/'+id+'.html'",
-                "简介": "✨指间的黑客提醒您:【请不要相信视频中的广告，以免上当受骗!】",
-                "分类url": "https://dayuya.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-                "分类": "虐恋$60#古装仙侠$41#逆袭$61#悬疑$62#神豪$63#重生$64#复仇$65#穿越$66#甜宠$67#强者$68#萌宝$69#其它$70#合集$71"
-            }
-        },
-        {
             "key": "✨可爱短剧✨",
             "name": "✨可爱短剧✨乐哥甄选✨",
             "type": 3,
@@ -104,16 +91,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/可爱短剧.json"
-        },
-        {
-            "key": "✨丽宫短剧✨",
-            "name": "✨丽宫短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/丽宫短剧.json"
         },
         {
             "key": "✨NUU短剧✨",
@@ -134,16 +111,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/奈飞短剧.json"
-        },
-        {
-            "key": "✨火车太堵短剧✨",
-            "name": "✨火车短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/火车太堵短剧.json"
         },
         {
             "key": "✨CCTV短剧✨",
@@ -248,39 +215,6 @@
             "ext": "./json/映迷短剧.json"
         },
         {
-            "key": "好帅短剧",
-            "name": "✨好帅短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "作者": "乐哥20041011",
-                "站名": "你好帅影院",
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://nhsyy.com",
-                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
-                "数组": "module-item-pic&&module-item\"",
-                "标题": "title=\"&&\"",
-                "图片": "data-src=\"&&\"",
-                "副标题": "✨+item-text\">&&</",
-                "链接": "href=\"&&\"",
-                "线路数组": "data-dropdown&&</div>",
-                "线路标题": "✨乐哥推荐✨+<span>&&</+【共+<small>&&<+集】",
-                "播放数组": "-blocklist\">&&</div>",
-                "播放列表": "<a&&a>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": "✨+<span>&&</",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "搜索模式": "1",
-                "搜索url": "https://nhsyy.com/vodsearch/{wd}----------{pg}---.html",
-                "分类url": "https://nhsyy.com/vodshwo/{cateId}--------{catePg}---.html",
-                "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
-            }
-        },
-        {
             "key": "护航短剧",
             "name": "✨护航短剧✨乐哥甄选✨",
             "type": 3,
@@ -307,63 +241,6 @@
             }
         },
         {
-            "key": "爱你短剧",
-            "name": "✨爱你短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://ainidj.com/",
-                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
-                "数组": "module-item-pic&&module-item\"",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "✨+module-item-text\">&&</div>",
-                "链接": "href=\"&&\"",
-                "简介": "✨指间的黑客祝各位观影愉快！！！",
-                "播放数组": "blocklist\">&&</div>",
-                "播放列表": "<a&&a>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": "✨+<span>&&</",
-                "搜索模式": "1",
-                "搜索url": "https://ainidj.com/vodsearch/{wd}----------{pg}---.html",
-                "搜索数组": "lazyload\"&&</a>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-src=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "分类url": "https://ainidj.com/vodtype/{cateId}-{catePg}.html",
-                "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
-            }
-        },
-        {
-            "key": "爱看4K",
-            "name": "✨爱看4K短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://wo.ikan4k.com/index.php/vod/show/id/31.html",
-                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
-                "数组": "module-item-pic&&module-item\"",
-                "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "✨+item-text\">&&<",
-                "线路数组": "dropdown&&</div>",
-                "线路标题": "✨乐哥推荐✨+<span>&&</+【共+<small>&&<+集】",
-                "播放数组": "id=\"sort-item&&</div>",
-                "播放列表": "<a&&a>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": "✨+<span>&&</",
-                "搜索模式": "1",
-                "搜索url": "https://wo.ikan4k.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
-                "简介": "✨指间的黑客为您介绍剧情✨+vod_content\">&&</span>",
-                "分类url": "https://wo.ikan4k.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-                "分类": "女频恋爱$32#反转爽剧$33#脑洞悬疑$34#年代穿越$35#古装仙侠$36#现代都市$37"
-            }
-        },
-        {
             "key": "✨稀饭短剧✨",
             "name": "✨稀饭短剧✨乐哥甄选✨",
             "type": 3,
@@ -372,16 +249,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/稀饭短剧.json"
-        },
-        {
-            "key": "✨影梦短剧✨",
-            "name": "✨影梦短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/影梦短剧.json"
         },
         {
             "key": "✨猎手✨",
@@ -442,16 +309,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/免费短剧.json"
-        },
-        {
-            "key": "✨飞飞短剧✨",
-            "name": "✨飞飞短剧✨乐哥甄选✨",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/飞飞短剧.json"
         },
         {
             "key": "✨蚂蚁影库✨",
@@ -589,7 +446,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+            "url": "https://4708.kstore.space/zhibo/tv.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
@@ -1231,5 +1088,6 @@
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
     ],
+    "logo": "https://4708.kstore.space/logo.gif",
     "wallpaper": "https://深色壁纸.xxooo.cf/"
 }

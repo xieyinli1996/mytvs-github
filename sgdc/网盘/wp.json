@@ -4,7 +4,7 @@
     {
       "name": "feiyang.allinone",
       "type": 0,
-      "url": "http://127.0.0.1:35455/tv.m3u",
+      "url": "http://127.0.0.1:35457/tv.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -12,7 +12,23 @@
     {
       "name": "feiyang.tptv",
       "type": 0,
-      "url": "http://127.0.0.1:35455/tptv.m3u",
+      "url": "http://127.0.0.1:35457/tptv.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.migu",
+      "type": 0,
+      "url": "http://127.0.0.1:35457/migu.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "feiyang.miguevent",
+      "type": 0,
+      "url": "http://127.0.0.1:35457/miguevent.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -20,7 +36,7 @@
     {
       "name": "feiyang.bililive",
       "type": 0,
-      "url": "http://127.0.0.1:35455/bililive.m3u",
+      "url": "http://127.0.0.1:35457/bililive.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -28,7 +44,7 @@
     {
       "name": "feiyang.huyayqk",
       "type": 0,
-      "url": "http://127.0.0.1:35455/huyayqk.m3u",
+      "url": "http://127.0.0.1:35457/huyayqk.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -36,7 +52,7 @@
     {
       "name": "feiyang.douyuyqk",
       "type": 0,
-      "url": "http://127.0.0.1:35455/douyuyqk.m3u",
+      "url": "http://127.0.0.1:35457/douyuyqk.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -44,7 +60,7 @@
     {
       "name": "feiyang.yylunbo",
       "type": 0,
-      "url": "http://127.0.0.1:35455/yylunbo.m3u",
+      "url": "http://127.0.0.1:35457/yylunbo.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -63,8 +79,16 @@
     },
 
 
-    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1,
+    {
+      "key": "Tg | 豆瓣",
+      "name": "Tg | 豆瓣",
+      "type": 3,
+      "api": "csp_TgYunDouBanPan",
+      "searchable": 1,
+      "changeable": 0,
       "ext": {
+        "siteUrl": "http://127.0.0.1:9999",
+        "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
       }
@@ -92,24 +116,51 @@
         "ratio": 1.433
       },
       "ext": {
+        "commonConfig": "./json/peizhi.json",
         "json": "./json/youtube.json",
         "cookie": ""
       }
     },
-
+{
+      "key": "玩偶 | 蜡笔",
+      "name": "玩偶 | 蜡笔",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://labipan.com/",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 木偶",
+      "name": "玩偶 | 木偶",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://www.muoupan.top/",
+        "filter": "./json/wogg.json"
+      }
+    },
     {
       "key": "玩偶gg",
-      "name": "玩偶gg",
+      "name": "玩偶 | 饭",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://www.wogg.bf/",
+        "siteUrl": "https://www.wogg.net/",
         "filter": "./json/wogg.json"
       }
     },
+    
     {
       "key": "哔哩FM",
       "name": "哔哩",
@@ -126,19 +177,7 @@
         "cookie": "qwewqddasdasd"
       }
     },
-    {
-      "key": "玩偶 | 蜡笔",
-      "name": "玩偶 | 蜡笔",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://duopan.fun",
-        "filter": "./json/wogg.json"
-      }
-    },
+    
     {
       "key": "网盘集合",
       "name": "网盘集合|4K",
@@ -415,6 +454,32 @@
 "filterable": 1,"ext": {"danmu": true},"timeout": 10},
 
     {
+      "key": "盘Ta",
+      "name": "盘Ta",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.91panta.cn/",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "小雷",
+      "name": "小雷",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.leijing1.com/",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
       "key": "星剧社",
       "name": "星剧社",
       "type": 3,
@@ -435,6 +500,7 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
+        "cookie": "",
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -469,6 +535,15 @@
       "changeable": 1,
       "ext": "https://ghp.ci/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./json/alist.json"
+    },
 
 {
       "key": "TgYunPan|服务器",
@@ -493,28 +568,11 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json"
       }
     },
 
-{
-      "key": "Youtube",
-      "name": "Youtube",
-      "type": 3,
-      "api": "csp_Youtube",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "json": "./json/youtube.json",
-        "cookie": ""
-      }
-    },
 
     {
       "key": "TgYunPanLocal1",
