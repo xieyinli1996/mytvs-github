@@ -1,9 +1,9 @@
 {
-  "spider": "./fan.txt;md5;7344a4b106de7836b1b7eda260cea56a",
+  "spider": "./fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "豆豆",
+      "key": "豆豆豆",
       "name": "备用🔥网络收集🔥【🔥请勿贩卖🔥】",
       "type": 3,
       "api": "csp_DouDou",
@@ -33,6 +33,7 @@
       "type": 3,
       "api": "./lib/4k.min.js",
       "ext": "./lib/og4K.js",
+      "indexs": 1,
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -188,7 +189,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
+      "ext": "FbjPcVZY48PN/RIZ5QqOrspjLMNAA5xaRiBa8vT6iB4RAYHOp3SFmQTE9v/hX3nlPzHB3X051Sp3XDoyUIN9aRARCZzZk1aDbikK"
     },
     {
       "key": "热播",
