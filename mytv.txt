@@ -1,11 +1,8 @@
 央视频道,#genre#
-CCTV1,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FG_CCTV-1-AVS-4K264.m3u8%3Flicense%3Dgitv$rptv
 CCTV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8?icpid=88888888&servicetype=1
 CCTV2,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226466/index.m3u8?icpid=88888888&servicetype=1
-CCTV3,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FG_CCTV-3-AVS-4K264.m3u8%3Flicense%3Dgitv$rptv
 CCTV3,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226461/index.m3u8?icpid=88888888&servicetype=1
 CCTV4,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226468/index.m3u8?icpid=88888888&servicetype=1
-CCTV5,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FG_CCTV-5-AVS-4K264.m3u8%3Flicense%3Dgitv$rptv
 CCTV5,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226487/index.m3u8?icpid=88888888&servicetype=1
 CCTV5+,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8?icpid=88888888&servicetype=1
 CCTV6,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226485/index.m3u8?icpid=88888888&servicetype=1
@@ -18,8 +15,6 @@ CCTV12,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226479/index.m3u
 CCTV13,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8?icpid=88888888&servicetype=1
 CCTV14,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226475/index.m3u8?icpid=88888888&servicetype=1
 CCTV15,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226478/index.m3u8?icpid=88888888&servicetype=1
-CCTV16,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fitv%2F5000000008000023254.m3u8%3Fcdn%3Dbestzb$itv-HEVC
-CCTV16,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FG_CCTV-16-4K.m3u8%3Flicense%3Dgitv$rptv-SDR
 CCTV16,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226100/index.m3u8$4.0M_1080
 CCTV17,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8?icpid=88888888&servicetype=1
 
@@ -160,9 +155,6 @@ CCTV16,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 
 CCTV4K,http://223.105.252.59/PLTV/4/224/3221228228/index.m3u8
-CCTV4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fgaoma%2Fcctv4k_10m.m3u8$gaoma-10m
-CCTV4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fgaoma%2Fcctv4k.m3u8$gaoma
-CCTV4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FG_CCTV-4K-HD.m3u8%3Flicense%3Dgitv$rptv-SDR
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226471/index.m3u8
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226592/index.m3u8
 CETV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
@@ -699,11 +691,6 @@ NewTV 炫舞未来,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719
 NewTV 武搏世界,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 NewTV 怡伴健康,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
 苏州4K,http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-华数-4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fitv%2F6000000003000004748.m3u8%3Fcdn%3Dwasusyt$itv
-纯享-4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fitv%2F1000000004000011651.m3u8%3Fcdn%3Dystenlive$itv
-纯享4K-2,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2FHD-20M-2160P-chunxiang4k.m3u8%3Flicense%3Dcntv$rptv
-篮球4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Frptv%2Fmiguaoyun01-AVS-4K01.m3u8%3Flicense%3Dgitv$rptv
-SiTV-欢笑剧场-4K,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fitv%2F5000000007000010001.m3u8%3Fcdn%3Dbestzb$itv
 
 IHOT频道,#genre#
 iHOT 爱院线,http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000034/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000034&IASHttpSessionId=OTT19019320240419154124000281
