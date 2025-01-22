@@ -5,10 +5,11 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "豆豆",
+            "key": "豆",
             "name": "备用公众号【叨观荐影】",
             "type": 3,
             "api": "csp_DouDou",
+            "indexs": 1,
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
@@ -74,6 +75,37 @@
             }
         },
         {
+            "key": "原创",
+            "name": "☀原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "白白",
+            "name": "🐟白白┃秒播",
+            "type": 3,
+            "api": "csp_Sbaibai",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "AppSj",
+            "name": "👒视界┃多线",
+            "type": 3,
+            "api": "csp_AppSj",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "Lib",
             "name": "🌟立播┃秒播",
             "type": 3,
@@ -106,6 +138,15 @@
             "changeable": 1
         },
         {
+            "key": "苹果",
+            "name": "🍎苹果┃不卡",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "zxzj",
             "name": "🍊在线┃秒播",
             "type": 3,
@@ -117,21 +158,83 @@
             "ext": "https://www.zxzjhd.com/"
         },
         {
-            "key": "苹果",
-            "name": "🍎苹果┃不卡",
+            "key": "csp_Bttoo",
+            "name": "🍄比特┃秒播",
             "type": 3,
-            "api": "csp_LiteApple",
+            "api": "csp_Bttwoo",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
         },
         {
-            "key": "原创",
-            "name": "☀原创┃不卡",
+            "key": "贱贱",
+            "name": "🐭贱贱┃P2P",
             "type": 3,
-            "api": "csp_YCyz",
-            "timeout": 15,
-            "playerType": 1,
+            "api": "csp_JPJ",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "key": "低端",
+            "name": "⏮️低端┃外剧",
+            "type": 3,
+            "api": "csp_Ddrk",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "木星",
+            "name": "🌞木星┃多线",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5QqOrspjLMNAA5xaRiBa8vT6iB4RAYHOp3SFmQTE9v/hX3nlPzHB3X051Sp3XDoyUIN9aRARCZzZk1aDbikK"
+        },
+        {
+            "key": "热播",
+            "name": "📺热播┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+        },
+        {
+            "key": "萌米",
+            "name": "👀萌米┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
+        },
+        {
+            "key": "欢视",
+            "name": "👓欢视┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
+        },
+        {
+            "key": "可可",
+            "name": "👻可可┃多线",
+            "type": 3,
+            "api": "csp_Kekys",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -146,90 +249,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czzyvideo.com/"
-        },
-        {
-            "key": "木星",
-            "name": "🌞木星┃多线",
-            "type": 3,
-            "api": "csp_AppSx",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
-        },
-        {
-            "key": "热播",
-            "name": "📺热播┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-        },
-        {
-            "key": "南瓜",
-            "name": "🎃南瓜┃多线",
-            "type": 3,
-            "api": "csp_NanGua",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "萌米",
-            "name": "👀萌米┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-        },
-        {
-            "key": "欢视",
-            "name": "👓欢视┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
-        },
-        {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "可可",
-            "name": "👻可可┃多线",
-            "type": 3,
-            "api": "csp_Kekys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "贱贱",
-            "name": "🐭贱贱┃P2P",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
         },
         {
             "key": "Auete",
@@ -300,19 +319,6 @@
             "style": {
                 "type": "list"
             }
-        },
-        {
-            "key": "310js",
-            "name": "⚽ 310┃看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/310直播.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "Jrsjs",
@@ -484,7 +490,7 @@
             "key": "Aliso",
             "name": "🙀盘搜┃阿狸",
             "type": 3,
-            "api": "csp_Aliso",
+            "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -531,7 +537,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/bilibili.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce40194194e5a5f7474"
             }
         },
         {
@@ -547,7 +553,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/biliych.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce40194194f4eb2747e"
             }
         },
         {
@@ -577,7 +583,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/少儿教育.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce4019465168f841292"
             }
         },
         {
@@ -593,7 +599,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/小学课堂.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bb42128a"
             }
         },
         {
@@ -609,7 +615,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/初中课堂.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bb2d1289"
             }
         },
         {
@@ -625,7 +631,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "./json/高中课堂.json"
+                "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099293dce401946513bd90128b"
             }
         },
         {
@@ -647,12 +653,12 @@
             "changeable": 0
         }
     ],
-    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
+    "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
     "lives": [
         {
-            "name": "牛播一（新版影视仓/ok影视）",
+            "name": "牛播一（仅新版影视仓/ok影视）",
             "type": 0,
-            "url": "./lives/牛播一（新版影视仓/ok影视）.txt",
+            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {

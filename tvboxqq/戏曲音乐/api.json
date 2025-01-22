@@ -1,3 +1,5 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
 {
     "spider": "./spider.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
@@ -54,44 +56,6 @@
             "ext": "./json/Bili.json"
         },
         {
-            "key": "MTV",
-            "name": "🎧明星┃MV",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/MTV.json"
-        },
-        {
-            "key": "酷奇",
-            "name": "🎤酷奇┃MV",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "js_a8音乐",
-            "name": "🎸A8音乐",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/a8yy.js"
-        },
-        {
             "key": "哔哩直播",
             "name": "🅱️哔哩直播",
             "type": 3,
@@ -110,6 +74,44 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/Bili短剧.json"
+        },
+        {
+            "key": "酷奇",
+            "name": "🎤酷奇┃MV",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/酷奇MV.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "MTV",
+            "name": "🎧明星┃MV",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "./json/MTV.json"
+        },
+        {
+            "key": "js_a8音乐",
+            "name": "🎸A8音乐",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/a8yy.js"
         },
         {
             "key": "影视解说",
@@ -162,23 +164,13 @@
         },
         {
             "key": "虎牙直播",
-            "name": "🐯虎牙直播[js]",
+            "name": "🐯虎牙直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./js/虎牙直播.js"
-        },
-        {
-            "key": "csp_XYQHiker_虎牙直播",
-            "name": "🐯虎牙直播(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/虎牙直播.json"
+            "ext": "./js/huyazhibo.js"
         },
         {
             "key": "斗鱼直播",

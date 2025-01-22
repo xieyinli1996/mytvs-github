@@ -155,18 +155,15 @@
       "type": 3,
       "playerType": 2
     },
-    
-    {
-      "key": "可可影视[优]_js",
-      "name": "七星🌟┃秒播⒒",
+        {
+      "key": "csp_南瓜",
+      "name":"七星🌟┃秒播⒒",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./lib/可可影视.json"
+      "api": "csp_MiTuApp",
+       "jar": "./lib/1205.jar",
+      "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"
     },
+
     {
       "key": "影探4K",
       "name": "七星🌟┃秒播⒓",

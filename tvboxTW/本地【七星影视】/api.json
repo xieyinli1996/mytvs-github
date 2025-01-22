@@ -77,18 +77,31 @@
       },
       "timeout": 10
     },
-    {
-      "key": "厂长弹幕版",
+     {
+      "key": "量子",
       "name": "七星🌟┃秒播⒋",
-      "type": 3,
-      "api": "csp_Czzy",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
+      "filterable": 0,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
     },
     {
       "key": "csp_Nmys",
@@ -164,16 +177,16 @@
       "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"
     },
 
-    {
-      "key": "影探4K",
+        {
+      "key": "qyys",
       "name": "七星🌟┃秒播⒓",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "csp_Qiyou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./lib/影探4K.js"
+      "changeable": 1,
+      "playerType": 1,
+      "jar": "http://m1839732.cf.caoni.ru/7/meow.php;md5;D2F2AD718A007B5733ABB5F91AD23533"
     },
     {
       "key": "VIP影视",
