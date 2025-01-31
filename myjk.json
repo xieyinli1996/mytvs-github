@@ -1,4 +1,4 @@
-{"urls": [
+﻿{"urls": [
 {"url": "https://raw.githubusercontent.com/cyalias/mytvs-github/main/tvbox/ouge-cyalias/api.json","name": "💞00讴歌cyalias【my-本地】"},
 {"url": "https://cdn09022024.gitlink.org.cn/api/v1/repos/cyccc/d1/raw/d1.json?ref=master","name": "🚀D1"},
 {"url": "https://api.hgyx.vip/hgyx.json","name": "🚀HG影视"},
@@ -11,7 +11,7 @@
 {"url": "http://pandown.pro/tvbox/tvbox.json","name": "🚀巧计线路"},
 {"url": "https://tv.youdu.fan:666/毒盒影视/","name": "🚀毒盒影视"},
 {"url": "http://home.jundie.top:81/top98.json","name": "🚀俊哥"},
-{"url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-SA.json","name": "🚀TVBOX圥忈-SA"},
+{"url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-SK.json","name": "🚀TVBOX圥忈-SK"},
 {"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lempg.json","name": "🚀雷蒙"},
 {"url": "https://yydf.540734621.xyz/QQ/yydf2024.json","name": "🚀业余线路"},
 {"url": "https://cdn09022024.gitlink.org.cn/api/v1/repos/cyccc/aishangtv5-hailin/raw/tvbox/aishang.json?ref=master","name": "🚀春盈-月牙猫"},
@@ -121,8 +121,8 @@
 {"name":"📚魔改D佬｜拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/魔改D佬/Dlaomogai.json"},
 {"name":"📚喵影视｜拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/喵影视/miaoyingshi.json"},
 {"name":"📚音乐会｜拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/音乐会/yinyue.json"},
-{"name":"📚短剧场 | 拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/短剧场/duanju.json"},
-{"name":"📚动漫帝国 | 拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/动漫帝国/dmtd.json"},
+{"name":"📚短剧场｜拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/短剧场/duanju.json"},
+{"name":"📚动漫帝国｜拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/动漫帝国/dmtd.json"},
 {"name":"📚少儿-智教频道专线 | 拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/拾光智教/srpd.json"},
 {"name":"📚少儿-学习频道专线 | 拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/少儿频道/srpd.json"},
 {"name":"📚天微 | 拾光-本地仓库📚","url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/sgdc/天微/tianwei.json"},

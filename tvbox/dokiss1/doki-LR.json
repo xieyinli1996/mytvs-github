@@ -2,7 +2,6 @@
     "spider": "./jar/dokilwss.jar",
     "wallpaper": "https://api.nguaduot.cn/netbian/random",
     "lives": [
-{"name":"MyLive","type":0,"url":"http://192.168.31.6:8088/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://live.fanmingming.com/tv/{name}.png","epg": "https://uh115654wg0.vicp.fun/api/v1?ch={name}&date={date}"},
         {
             "name": "TTLive",
             "type": 0,
