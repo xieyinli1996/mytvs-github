@@ -146,11 +146,15 @@ CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226471/index.m3u8
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226592/index.m3u8?icpid=88888888&servicetype=1
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226471/index.m3u8?icpid=88888888&servicetype=1
 CETV1,http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226592/index.m3u8?icpid=88888888&servicetype=1
-CGTN纪录,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fgaoma%2Fcgtndoc.m3u8
+CGTN,http://192.168.31.9:35455/gaoma/cgtnen.m3u8
 CGTN,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fgaoma%2Fcgtnen.m3u8
+CGTN纪录,http://192.168.31.9:35455/gaoma/cgtndoc.m3u8
+CGTN纪录,http://192.168.31.9:35456/jump?url=http%3A%2F%2F192.168.31.9%3A35455%2Fgaoma%2Fcgtndoc.m3u8
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+北京纪实科教8K,https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
+重温经典,https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
 
 卫视频道,#genre#
 河南卫视4K实验,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226344/index.m3u8
