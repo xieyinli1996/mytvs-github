@@ -1,6 +1,6 @@
-{
+﻿{
     "spider": "./spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -746,6 +746,17 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
+            "key": "快看",
+            "name": "快看｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://kkwk123.top/api.php/app/"
+        },
+        {
             "key": "天天影视",
             "name": "天天｜APP",
             "type": 3,
@@ -1419,20 +1430,6 @@
             "ext": "./JS/樱花动漫.js"
         },
         {
-            "key": "夸克影搜弹幕",
-            "name": "影搜｜弹幕",
-            "type": 3,
-            "api": "csp_Yingso",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
             "type": 3,
@@ -1470,20 +1467,6 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "米搜弹幕",
-            "name": "米搜｜弹幕",
-            "type": 3,
-            "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://www.misou.fun",
                 "danmu": true
             }
         },
@@ -1751,7 +1734,8 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+            "indexs": 0,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
         },
         {
             "key": "push_agent",
@@ -2174,6 +2158,7 @@
         }
     ],
     "lives": [
+{"name":"CyaliasLive","type":0,"url":"https://raw.githubusercontent.com/cyalias/mytvs-github/main/mytv.txt","playerType":1,"ua": "okhttp/3.12.13","logo": "https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/{name}.png","epg": "https://uh115654wg0.vicp.fun/api/v1?ch={name}&date={date}"},
         {
             "name": "AI直播",
             "type": 0,
@@ -2182,14 +2167,6 @@
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
             "playerType": 1,
             "timeout": 10
-        },
-        {
-            "name": "直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
